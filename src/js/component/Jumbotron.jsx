@@ -7,7 +7,7 @@ const Jumbotron = (props) => {
 		<div className="jumbotron m-4 p-4 bg-light text-black rounded">
 			<h1 className="display-4 m-3">{props.title}</h1>
 			<p className="lead m-3">{props.description}</p>
-			<a className="btn btn-primary btn-lg" href={props.buttonURL} role="button">
+			<a className="btn btn-primary btn-lg" href="#" role="button">
 				{props.buttonLabel}
 			</a>
 		</div>
@@ -19,7 +19,6 @@ Jumbotron.propTypes = {
 	title: PropTypes.string,
 	description: PropTypes.string,
 	buttonLabel: PropTypes.string,
-	buttonURL: PropTypes.string,
 };
 
 export default Jumbotron;
