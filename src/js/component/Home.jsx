@@ -21,15 +21,17 @@ const Home = () => {
 			<CardList>
 				<CardWithProps title="Card title"
 				description="Adipisicing et magna commodo et. Nostrud laborum pariatur culpa ipsum ex laborum nisi fugiat voluptate sunt. Lorem deserunt culpa ipsum magna qui in aliqua eiusmod. (props)"
-				buttonLabel="Find Out More!"></CardWithProps>
+				buttonLabel="Find Out More!">
+				</CardWithProps>
 
-				<CardWithoutProps></CardWithoutProps>
+				<CardWithoutProps/>
 
 				<CardWithProps title="Card title"
 				description="Adipisicing et magna commodo et. Nostrud laborum pariatur culpa ipsum ex laborum nisi fugiat voluptate sunt. Lorem deserunt culpa ipsum magna qui in aliqua eiusmod. (props)"
-				buttonLabel="Find Out More!"></CardWithProps>
+				buttonLabel="Find Out More!">
+				</CardWithProps>
 
-				<CardWithoutProps></CardWithoutProps>
+				<CardWithoutProps/>
 			</CardList>
 
 			<Footer></Footer>
